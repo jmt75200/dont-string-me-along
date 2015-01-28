@@ -37,8 +37,16 @@ function swap ( squirl ) {
 swap(stringA);
 
 //#4 test for circular variation between two strings
+var fullWord = "Joelle Torneros";
+var partial = "elle To";
 
+function circles ( squirl, acorn ) {
+  if (str.search(squirl) != -1){
+    return true;
+  }
+}
 
+circles(partial, fullWord);
 
 //#5 test a single word if it is a palindrom = true
 var palindrome = "hannah";
